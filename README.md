@@ -6,6 +6,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Deploy environment
+Install `ng buid --prod
+This will create a/dist folder. Then we can run it locally with something like "lite-server"
+To install lite-server 
+Run `npm i -g lite-server
+`cd /dist/myapp` and run
+Run `lite-server` This will launch the product build in browser.  
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
